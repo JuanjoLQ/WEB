@@ -2,3 +2,23 @@ nav  li{
     margin-left: 10px;
     margin-right: 10px;
 }
+.top{
+    background-color: #17232e;
+}
+.user-logo{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.name-board{
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.content-article{
+    background-image: url('/WEB/images/wp9139434.jpg');
+    background-size: cover;
+    max-width: 100%;
+    
+    max-height: 100%;
+}
