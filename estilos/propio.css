@@ -1,9 +1,15 @@
+body{
+    background: url('/WEB/images/wp9139434.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 nav  li{
     margin-left: 10px;
     margin-right: 10px;
 }
 .top{
     background-color: #17232e;
+    font-size: small;
 }
 .user-logo{
     margin-left: 2%;
@@ -15,10 +21,4 @@ nav  li{
     margin-left: 2%;
 }
 
-.content-article{
-    background-image: url('/WEB/images/wp9139434.jpg');
-    background-size: cover;
-    max-width: 100%;
-    
-    max-height: 100%;
-}
+
