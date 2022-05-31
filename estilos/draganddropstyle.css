@@ -7,10 +7,15 @@
 
 h1,
 h4 {
-	font-family: "Arimo", sans-serif;
-	line-height: 1.3;
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: bold;
+	line-height: 28px;
+	
 }
 
+h4 {
+	padding-top: 0.5rem;
+}
 header h1 {
 	font-size: 2.4rem;
 	margin: 4rem auto;
@@ -23,21 +28,11 @@ nav span {
 p {
 	font-family: "Roboto Slab", serif;
 }
-#navegacion
-a,
-a:link,
-a:active,
-a:visited {
-   
-    color: #0066aa;
+
+#navegacion a{
+	color: #0066aa;
 	text-decoration: none;
 	border-bottom: #000013 0.16rem solid;
-   
-}
-
-a:hover {
-	color: #000013;
-	border-bottom: #0066aa 0.16rem solid;
 }
 
 header,
@@ -51,12 +46,12 @@ footer {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: 20rem;
+	width: 25rem;
 	height: 5.3rem;
 	margin: auto;
 	background: #a8a8a8;
 	border: #000013 0.2rem solid;
-	border-radius: 0.2rem;
+	border-radius: 0.9rem;
 	padding: 0.4rem;
 }
 
@@ -79,14 +74,22 @@ footer {
 .column {
 	width: 8.4rem;
 	margin: 0 0.6rem;
-	background: #a8a8a8;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top: 1%;
+	background: transparent;
+	/*
 	border: #000013 0.2rem solid;
 	border-radius: 0.2rem;
+	*/
 }
 
 .column-header {
 	padding: 0.1rem;
-	border-bottom: #000013 0.2rem solid;
+	/*border-bottom: #000013 0.2rem solid;*/
+	
+	border: #000013 0.2rem solid;
+	border-radius: 0.2rem;
 }
 
 .column-header h4 {
@@ -192,7 +195,7 @@ nav ul {
 	text-align: center;
 	font-family: "Roboto Slab", serif;
 	height: 4rem;
-	width: 7rem;
+	width: 13rem;
 	margin: auto 0.8rem auto 0.1rem;
 }
 

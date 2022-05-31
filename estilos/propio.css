@@ -1,6 +1,7 @@
 body{
     background: url('/WEB/images/wp9139434.jpg') no-repeat center center fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 nav  li{
@@ -16,9 +17,15 @@ nav  li{
     margin-right: 2%;
 }
 .name-board{
-    float: left;
+    float: none;
     margin-top: 1%;
     margin-left: 2%;
 }
 
+aside p{
+    font-size: large !important;
+}
+article{
+    margin-top: -2%;
+}
 
