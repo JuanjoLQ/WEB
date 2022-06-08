@@ -20,6 +20,12 @@ nav  li{
     float: none;
     margin-top: 1%;
     margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.guardarTablero{
+    
+    margin-left: 80%;
 }
 
 aside p{
@@ -28,4 +34,6 @@ aside p{
 article{
     margin-top: -2%;
 }
+
+
 

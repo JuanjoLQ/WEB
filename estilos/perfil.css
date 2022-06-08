@@ -1,0 +1,10 @@
+body {
+    background: url('/WEB/images/13742-minimalista.png') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}

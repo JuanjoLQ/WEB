@@ -5,17 +5,13 @@
 	box-sizing: border-box;
 }
 
-h1,
-h4 {
+h1{
 	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-weight: bold;
 	line-height: 28px;
 	
 }
 
-h4 {
-	padding-top: 0.5rem;
-}
 header h1 {
 	font-size: 2.4rem;
 	margin: 4rem auto;
@@ -50,10 +46,11 @@ footer {
 	height: 5.3rem;
 	margin: auto;
 	background: #a8a8a8;
-	border: #000013 0.2rem solid;
-	border-radius: 0.9rem;
+	border: #0f0f0f 1px solid;
+	border-radius: 10px;
 	padding: 0.4rem;
 }
+
 
 .main-container {
 	display: -webkit-box;
@@ -77,40 +74,47 @@ footer {
 	margin-right: 2.5%;
 	margin-left: 2.5%;
 	margin-top: 1%;
-	background: transparent;
-	/*
-	border: #000013 0.2rem solid;
-	border-radius: 0.2rem;
-	*/
+	background: #1c1f22;
+	
+	border: #000013 1px solid;
+	border-radius: 10px;
+
+	padding-top: 0.5%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 0.5%;
+
+	border-bottom: solid black;
+	border-right: solid black;
+	
 }
 
 .column-header {
 	padding: 0.1rem;
 	/*border-bottom: #000013 0.2rem solid;*/
 	
-	border: #000013 0.2rem solid;
-	border-radius: 0.2rem;
+	
+	border-radius: 10px;
+
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(227, 229, 232);
+
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: bold;
+	line-height: 28px;
+
+	border-bottom: solid black;
+	border-right: solid black;
+
 }
 
 .column-header h4 {
 	text-align: center;
 }
 
-.to-do-column .column-header {
-	background: #ff872f;
-}
-
-.doing-column .column-header {
-	background: #13a4d9;
-}
-
-.done-column .column-header {
-	background: #15d072;
-}
-
-.trash-column .column-header {
-	background: #ff4444;
-}
 
 .task-list {
 	min-height: 3rem;
@@ -138,8 +142,8 @@ nav ul {
 .button {
 	font-family: "Arimo", sans-serif;
 	font-weight: 700;
-	border: #000013 0.14rem solid;
-	border-radius: 0.2rem;
+	border: #000013 1px solid;
+	border-radius: 10px;
 	color: #000013;
 	padding: 0.6rem 1rem;
 	margin-bottom: 0.3rem;
@@ -176,22 +180,28 @@ nav ul {
 	justify-content: center;
 	vertical-align: middle;
 	list-style-type: none;
-	background: #fff;
+	background: #1c1f22;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	margin: 0.4rem;
 	height: 4rem;
-	border: #000013 0.15rem solid;
-	border-radius: 0.2rem;
+	border-radius: 10px;
 	cursor: move;
 	text-align: center;
 	vertical-align: middle;
+	color: rgb(227, 229, 232);
+	box-shadow: 0.5px 1px #000000;
+}
+
+.task:hover{
+	background: rgba(252, 141, 140, 0.05) none repeat scroll 0% 0%;
 }
 
 #taskText {
 	background: #fff;
-	border: #000013 0.15rem solid;
-	border-radius: 0.2rem;
+	color: black;
+	border: #000013 1px solid;
+	border-radius: 10px;
 	text-align: center;
 	font-family: "Roboto Slab", serif;
 	height: 4rem;
